@@ -93,20 +93,20 @@ public class Main {
 
             if (num2.equals(arr1) && (in1 >= 0 && in1 <= 10) && (in2 >= 0 && in2 <= 10)) {
                 int a1 = in1 + in2;
-                resultOut1 = arabNum[a1];
+                resultOut1 ="" + a1;
 
 
             } else if (num2.equals(arr2) && (in1 >= 0 && in1 <= 10) && (in2 >= 0 && in2 <= 10)) {
                 int a1 = in1 - in2;
-                resultOut1 = arabNum[a1];
+                resultOut1 ="" + a1;
 
             } else if (num2.equals(arr3) && (in1 >= 0 && in1 <= 10) && (in2 >= 0 && in2 <= 10)) {
                 int a1 = in1 * in2;
-                resultOut1 = arabNum[a1];
+                resultOut1 ="" + a1;
 
             } else if (num2.equals(arr4) && (in1 >= 0 && in1 <= 10) && (in2 >= 0 && in2 <= 10)) {
                 int a1 = in1 / in2;
-                resultOut1 = arabNum[a1];
+                resultOut1 ="" + a1;
 
             }
         } else if (Arrays.asList(arrRom).contains(num1) && Arrays.asList(arabNum).contains(num3)) {
